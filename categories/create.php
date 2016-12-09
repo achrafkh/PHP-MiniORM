@@ -10,7 +10,7 @@ include($_SERVER['DOCUMENT_ROOT']."/template/head.php");
             <label for="name">Category Name:</label>
             <input type="text" class="form-control" name="name" id="name">
         </div>
-        <button type="submit" name="create" class="btn btn-default">Submit</button>
+        <button type="submit" name="create" class="btn btn-default" value="create">Submit</button>
     </form>
 </div>
 <script src="../assets/js/jquery.js"></script>

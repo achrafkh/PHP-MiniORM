@@ -1,6 +1,6 @@
 <?php
 require("Load.php");
 
-
-$test = Category::All();
-dd($test);
+$test = Request::only("ss");
+//dd($test);
+pr($test);

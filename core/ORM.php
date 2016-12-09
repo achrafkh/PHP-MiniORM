@@ -6,7 +6,7 @@
  * Date: 05/12/16
  * Time: 17:28
  */
-abstract class Utility
+abstract class ORM
 {
     /**
      * @return PDO|string
@@ -95,9 +95,8 @@ abstract class Utility
      */
     public static function Delete($id)
     {
-        $stmt = self::Connect()->prepare("DELETE FROM " . static::TABLE . " WHERE id = :id");
-        $stmt->bindParam(':id', $id);
-        if (!$stmt->execute()) {
+        $stmt = self::Connect()->prepare("DELETE FROM " . static::TABLE . " WHERE id = ?");
+        if (!$stmt->execute([$id])) {
             return false;
         }
         return true;

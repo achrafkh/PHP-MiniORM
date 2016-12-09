@@ -49,7 +49,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/template/head.php");
                                 <a style="margin-left: 5px;" class="btn btn-primary"
                                    href="/categories/update.php?id=<?= $category->getId() ?>">Update</a>
                                 <button name="delete" style="margin-left: 5px;" class="btn btn-danger"
-                                        value="<?= $category->getId() ?>">Delete
+                                        value="<?= $category->getId() ?>" value="delete">Delete
                                 </button>
                             </form>
                         </td>

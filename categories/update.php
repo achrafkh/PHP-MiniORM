@@ -26,7 +26,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/template/head.php");
             <input type="text" class="form-control" name="name" id="name" value="<?= $cat->getName() ?>">
         </div>
 
-        <button type="submit" name="update" class="btn btn-default">Submit</button>
+        <button type="submit" name="update" class="btn btn-default" value="update">Submit</button>
     </form>
 </div>
 <?php

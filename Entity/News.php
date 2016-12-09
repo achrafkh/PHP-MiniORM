@@ -1,13 +1,13 @@
 <?php
 
-require_once("Utility.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/core/ORM.php");
 /**
  * Created by PhpStorm.
  * User: pach
  * Date: 04/12/16
  * Time: 23:42
  */
-class News extends Utility
+class News extends ORM
 {
     protected $id;
     protected $title;

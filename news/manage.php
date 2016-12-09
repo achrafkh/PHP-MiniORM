@@ -2,10 +2,8 @@
 session_start();
 require_once($_SERVER['DOCUMENT_ROOT']."/Load.php");
 
-if (isset($_POST["create"]) && $_POST["title"] != "" && $_POST["description"] != "" && $_POST["category_id"] != "") {
-    unset($_POST["create"]);
-    $data = $_POST;
-    $news = News::Create($data);
+if (Request::has("create")){
+    $news = News::Create(Request::except("create"));
 
     if (!$news) {
         $_SESSION["msg"] = ["danger" => "something Went Wrong"];
@@ -14,24 +12,10 @@ if (isset($_POST["create"]) && $_POST["title"] != "" && $_POST["description"] !=
     }
 }
 
-if (isset($_POST["update"])) {
+if (Request::has("update")) {
+    $id = Request::get("id");
 
-    $data = $_POST;
-    $id = $data["id"];
-
-
-    unset($data["id"]);
-    unset($data["update"]);
-
-    if ($data["title"] == "") {
-        unset($data["title"]);
-    }
-    if ($data["description"] == "") {
-        unset($data["description"]);
-    }
-    if ($data["category_id"] == "") {
-        unset($data["category_id"]);
-    }
+    $data = Request::only("title","description","category_id");
 
     $news = News::Find($id)->Update($data);
 
@@ -42,8 +26,8 @@ if (isset($_POST["update"])) {
     }
 }
 
-if (isset($_POST["delete"])) {
-    if (!News::Delete($_POST["delete"])) {
+if (Request::has("delete")) {
+    if (!News::Delete(Request::get("delete"))) {
         $_SESSION["msg"] = ["danger" => "something Went Wrong"];
     } else {
         $_SESSION["msg"] = ["success" => "News Successfully Deleted"];

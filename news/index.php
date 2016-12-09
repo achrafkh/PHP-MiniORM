@@ -53,7 +53,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/template/head.php");
                             <a style="margin-left: 5px;" class="btn btn-primary"
                                href="/news/update.php?id=<?= $item->getId() ?>">Update</a>
                             <button name="delete" style="margin-left: 5px;" class="btn btn-danger"
-                                    value="<?= $item->getId() ?>">Delete
+                                    value="<?= $item->getId() ?>" value="delete">Delete
                             </button>
                         </form>
                     </td>
