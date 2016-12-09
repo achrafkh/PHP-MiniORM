@@ -164,5 +164,4 @@ abstract class ORM
         }
         return $temps;
     }
-
 }

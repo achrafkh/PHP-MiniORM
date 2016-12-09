@@ -22,11 +22,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="manage.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/news/manage.php">
+      <file leaf-file-name="ORM.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/ORM.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7295492">
-              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.44073457">
+              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+              <folding>
+                <marker date="1481246181083" expanded="true" signature="531:623" placeholder="SELECT * FRO..." />
+                <marker date="1481246181083" expanded="true" signature="1067:1174" placeholder="INSERT INTO ..." />
+                <marker date="1481246181083" expanded="true" signature="1472:1526" placeholder="SELECT * FRO..." />
+                <marker date="1481246181083" expanded="true" signature="1867:1953" placeholder="SELECT * FRO..." />
+                <marker date="1481246181083" expanded="true" signature="2365:2411" placeholder="DELETE FROM ..." />
+                <marker date="1481246181083" expanded="true" signature="2631:2679" placeholder="DELETE FROM ..." />
+                <marker date="1481246181083" expanded="true" signature="3827:3887" placeholder="SELECT * FRO..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-24.0">
+              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.3333333">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -47,7 +75,6 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Entity/Utility.php" />
         <option value="$PROJECT_DIR$/Load.php" />
-        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/news/update.php" />
         <option value="$PROJECT_DIR$/news/index.php" />
         <option value="$PROJECT_DIR$/news/create.php" />
@@ -57,9 +84,10 @@
         <option value="$PROJECT_DIR$/categories/create.php" />
         <option value="$PROJECT_DIR$/Entity/Category.php" />
         <option value="$PROJECT_DIR$/Entity/News.php" />
-        <option value="$PROJECT_DIR$/core/ORM.php" />
         <option value="$PROJECT_DIR$/categories/manage.php" />
         <option value="$PROJECT_DIR$/news/manage.php" />
+        <option value="$PROJECT_DIR$/core/ORM.php" />
+        <option value="$PROJECT_DIR$/test.php" />
       </list>
     </option>
   </component>
@@ -133,49 +161,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniORM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abstraction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniORM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abstraction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniORM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abstraction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="categories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,7 +245,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="21" width="1321" height="747" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2814699" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -311,13 +297,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding>
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1481246181083" expanded="true" signature="531:623" placeholder="SELECT * FRO..." />
+            <marker date="1481246181083" expanded="true" signature="1067:1174" placeholder="INSERT INTO ..." />
+            <marker date="1481246181083" expanded="true" signature="1472:1526" placeholder="SELECT * FRO..." />
+            <marker date="1481246181083" expanded="true" signature="1867:1953" placeholder="SELECT * FRO..." />
+            <marker date="1481246181083" expanded="true" signature="2365:2411" placeholder="DELETE FROM ..." />
+            <marker date="1481246181083" expanded="true" signature="2631:2679" placeholder="DELETE FROM ..." />
+            <marker date="1481246181083" expanded="true" signature="3827:3887" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -358,13 +344,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1481246181083" expanded="true" signature="531:623" placeholder="SELECT * FRO..." />
+            <marker date="1481246181083" expanded="true" signature="1067:1174" placeholder="INSERT INTO ..." />
+            <marker date="1481246181083" expanded="true" signature="1472:1526" placeholder="SELECT * FRO..." />
+            <marker date="1481246181083" expanded="true" signature="1867:1953" placeholder="SELECT * FRO..." />
+            <marker date="1481246181083" expanded="true" signature="2365:2411" placeholder="DELETE FROM ..." />
+            <marker date="1481246181083" expanded="true" signature="2631:2679" placeholder="DELETE FROM ..." />
+            <marker date="1481246181083" expanded="true" signature="3827:3887" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -401,13 +387,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1481246181083" expanded="true" signature="531:623" placeholder="SELECT * FRO..." />
+            <marker date="1481246181083" expanded="true" signature="1067:1174" placeholder="INSERT INTO ..." />
+            <marker date="1481246181083" expanded="true" signature="1472:1526" placeholder="SELECT * FRO..." />
+            <marker date="1481246181083" expanded="true" signature="1867:1953" placeholder="SELECT * FRO..." />
+            <marker date="1481246181083" expanded="true" signature="2365:2411" placeholder="DELETE FROM ..." />
+            <marker date="1481246181083" expanded="true" signature="2631:2679" placeholder="DELETE FROM ..." />
+            <marker date="1481246181083" expanded="true" signature="3827:3887" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -434,22 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.984975">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1803005">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/news/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3539232">
@@ -470,14 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7145242">
           <caret line="45" column="86" selection-start-line="45" selection-start-column="72" selection-end-line="45" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36560935">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -526,22 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/ORM.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24040067">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1481244666967" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/categories/manage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42904842">
@@ -560,9 +506,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news/manage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7295492">
+        <state vertical-scroll-proportion="0.57929885">
           <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14858097">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.0">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ORM.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44073457">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+          <folding>
+            <marker date="1481246181083" expanded="true" signature="531:623" placeholder="SELECT * FRO..." />
+            <marker date="1481246181083" expanded="true" signature="1067:1174" placeholder="INSERT INTO ..." />
+            <marker date="1481246181083" expanded="true" signature="1472:1526" placeholder="SELECT * FRO..." />
+            <marker date="1481246181083" expanded="true" signature="1867:1953" placeholder="SELECT * FRO..." />
+            <marker date="1481246181083" expanded="true" signature="2365:2411" placeholder="DELETE FROM ..." />
+            <marker date="1481246181083" expanded="true" signature="2631:2679" placeholder="DELETE FROM ..." />
+            <marker date="1481246181083" expanded="true" signature="3827:3887" placeholder="SELECT * FRO..." />
+          </folding>
         </state>
       </provider>
     </entry>
